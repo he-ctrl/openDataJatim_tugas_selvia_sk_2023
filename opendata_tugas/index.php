@@ -1,6 +1,6 @@
 <?php
 
-// API URL untuk mendapatkan data jumlah kejadian bencana berdasarkan jenisnya di Jawa Timur
+// API URL untuk mendapatkan data fasilitas olahraga di Jawa Timur
 $apiUrl = 'https://opendata.jatimprov.go.id/api/cleaned-bigdata/dinas_kepemudaan_dan_olahraga_provinsi_jawa_timur/ktrsdn_fslts_lhrglpngn_lhrggdng_lhrg_st_pmrnth_prvns_jw_tmr?where=%7B%22periode_update%22%3A%5B%222025%22%2C%222024%22%2C%222023%22%2C%222022%22%2C%222021%22%5D%7D';
 //membuat header untuk menghidari 403
 $context = stream_context_create([
